@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.759">
+    <testcase classname="Login procedure" name="Log in unsuccessfully" time="7.985">
+        <system-out><![CDATA[Given I open "https://stackoverflow.com/"...................................passed
+When I click "Log in" button................................................passed
+And I write username "trifan.denis1999@gmail.com" and password "qweasd123400".passed
+And I submit "Log in" button................................................passed
+Then I get error message....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login procedure" name="Log in successfully" time="8.408">
+        <system-out><![CDATA[Given I open "https://stackoverflow.com/"...................................passed
+When I click "Log in" button................................................passed
+And I write username "trifan.denis1999@gmail.com" and password "qweasd1234009".passed
+And I submit "Log in" button................................................passed
+Then I am logged to account.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
